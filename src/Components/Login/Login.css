@@ -1,0 +1,115 @@
+/* Login.css */
+.Loginmodal-overlay,
+.ForgotLoginmodal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Loginmodal-content,
+.ForgotLoginmodal-content {
+    width: 520px;
+    height: 420px;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.ForgotLoginmodal-content {
+    width: 520px;
+    height: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.Loginclose-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.Forgotclose-button {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+.LoginTittle {
+    display: flex;
+    font-size: 30px;
+    padding-bottom: 25px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-family: QuickSand-Bold;
+}
+
+.form-group {
+    color: red;
+    margin-bottom: 15px;
+    margin-right: 50px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.LoginButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: slateblue;
+    color: white;
+    font-family: QuickSand-Bold;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.LoginCheckboxinput {
+    transform: scale(1.5);
+    margin-right: 10px;
+}
+
+.LoginCheckbox {
+    padding-bottom: 8px;
+    color: red;
+    font-family: Quicksand-Light;
+}
+
+.ForgotPasswordLink {
+    display: block;
+    margin-top: 15px;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}

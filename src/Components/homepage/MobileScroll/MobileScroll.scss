@@ -1,0 +1,123 @@
+.bgImage-for-parallax {
+  background-image: url("../../../Assets/images/Parallax/blackBGTexture.png");
+  height: 407vh;
+}
+
+.mobile-scroll {
+  position: relative;
+  width: 100%; //100%
+  padding: 7rem 10rem;
+
+  .scroll-full-screen-wrapper {
+    width: 50%;
+    .scroll-full-screen {
+      min-height: 100vh;
+    }
+  }
+  .mobile-mockup-wrapper {
+    .tigerBG {
+      // position: sticky;
+      // top: 10rem;
+      // transform: translateX(40%);
+      transform: translate(40%, -40%);
+
+      img {
+        width: 110%;
+      }
+    }
+
+    .mobile-mockup {
+      position: sticky;
+      top: 15%;
+      transform: translateX(30%);
+      width: 52%;
+      height: 18%;
+      border-radius: 46px;
+      padding: 1px;
+      border: 1px solid;
+      max-height: 100vh;
+      box-shadow: #b0b0b229 0px -5px 6px 0px inset,
+        #0000003d 4px 6px 11px 1px inset;
+
+      .mobile-mockup-screen {
+        background-color: black;
+        overflow: hidden;
+        height: 100%;
+        border-radius: inherit;
+
+        .mobile-screen-img {
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+}
+
+.screen-heading {
+  font-family: Quicksand-Bold;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 105px;
+  padding-top: 7rem;
+
+  span {
+    color: var(--orange);
+  }
+}
+
+.screen-text {
+  opacity: 0;
+  padding-bottom: 80px;
+}
+
+.text-visible {
+  opacity: 1;
+  transition: 0.75s;
+  height: 100vh;
+  padding-top: 10%;
+}
+
+.screen-description {
+  font-family: Quicksand-Bold;
+  text-align: justify;
+  padding-inline: 3rem;
+  word-spacing: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 2%;
+}
+
+@media all and (max-width: 1279) {
+  .mobile-scroll {
+    padding-bottom: 30px;
+  }
+  .mobile-mockup {
+    width: 272px;
+    height: 480px;
+    transform: translateX(10%);
+  }
+  .screen-heading {
+    font-size: 70px;
+    line-height: 70x;
+  }
+  .screen-description {
+    font-size: 18px;
+    margin-top: 40px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .screen-heading {
+    font-size: 50px;
+    line-height: 50x;
+  }
+  .screen-description {
+    font-size: 18px;
+    margin-top: 40px;
+  }
+  .scroll-full-screen-wrapper {
+    width: 100%;
+  }
+}

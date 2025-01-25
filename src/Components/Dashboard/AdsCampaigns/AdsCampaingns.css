@@ -1,0 +1,127 @@
+/* AdsCampaingns.css */
+.ads-main-content {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ads-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #919296;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.ads-header-left {
+    background-color: #919296;
+    display: flex;
+    align-items: center;
+    color: #000000;
+
+}
+
+.ads-header-left h2 {
+    margin-right: 20px;
+    font-family: 'Quicksand-Bold';
+    /* font-size: 24px; */
+}
+
+.tabs {
+    display: flex;
+}
+
+.tab {
+    background-color: #E78C1C;
+    color: #FFFFFF;
+    margin-right: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Quicksand-Regular';
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.tab:hover {
+    background-color: #E78C1C;
+    color: #000000 !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.tab.active {
+    background-color: #E78C1C;
+    color: #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.add-new-button {
+    background-color: #E78C1C;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Quicksand-SemiBold';
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.add-new-button:hover {
+    background-color: #E78C1C;
+    color: #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.campaigns-table {
+    overflow-x: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #919296(0, 0, 0, 0.1);
+
+}
+
+.campaigns-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.campaigns-table th,
+.campaigns-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #000000;
+    font-family: 'Quicksand-Regular';
+    color: #000000;
+}
+
+.campaigns-table th {
+    background-color: #919296;
+    color: #000000;
+    font-weight: bold;
+}
+
+.campaigns-table td {
+    background-color: #FFFFFF;
+}
+
+.campaigns-table a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.campaigns-table a:hover {
+    text-decoration: underline;
+}
+
+.status-active {
+    color: #28a745;
+    /* Green color for active status */
+    font-weight: 600;
+}

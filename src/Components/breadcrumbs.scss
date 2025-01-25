@@ -1,0 +1,101 @@
+//* BREADCRUMBS FOR EVERYPAGE
+
+.innerPage-Header {
+  height: 20vh !important;
+  padding-top: 5.9rem;
+  padding-bottom: 1.5rem;
+  padding-inline: 3rem;
+  // padding-top: 6rem;
+  padding-top: 7.3rem;
+  position: static;
+
+  .innerPage-BreadCrumbs {
+    a {
+      color: var(--grey);
+    }
+    .homeCrumb {
+      &::after {
+        content: ">";
+        padding: 9px;
+      }
+    }
+    .lastBreadCrumbs {
+      &::after {
+        content: ">";
+        padding: 9px;
+      }
+    }
+  }
+
+  .innerPage-SearchBar-Div {
+    button {
+      background: transparent;
+    }
+    img {
+      height: 25px;
+    }
+
+    input {
+      border: 0;
+      width: 32rem;
+      padding-block: 3%;
+      padding-left: 10%;
+      border-radius: 30px;
+
+      &::placeholder {
+        font-size: 1.2rem;
+        font-weight: 100;
+      }
+    }
+  }
+}
+
+//* BREADCRUMBS FOR LISTINGS
+
+.innerPage-HeaderArchive {
+    position: relative;
+    // top: 7rem;
+    top: 8rem;
+    padding-inline: 3rem;
+    height: 4vh;
+
+  .innerPage-BreadCrumbsArchive {
+    a {
+      color: var(--grey);
+    }
+    .homeCrumb {
+      &::after {
+        content: ">";
+        padding: 9px;
+      }
+    }
+    .lastBreadCrumbs {
+      &::after {
+        content: ">";
+        padding: 9px;
+      }
+    }
+  }
+
+  .innerPage-SearchBar-DivArchive {
+    button {
+      background: transparent;
+    }
+    img {
+      height: 25px;
+    }
+
+    input {
+      border: 0;
+      width: 32rem;
+      padding-block: 3%;
+      padding-left: 10%;
+      border-radius: 30px;
+
+      &::placeholder {
+        font-size: 1.2rem;
+        font-weight: 100;
+      }
+    }
+  }
+}

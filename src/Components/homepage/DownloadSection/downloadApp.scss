@@ -1,0 +1,63 @@
+//! DOWNLOAD PAGE STYLES
+.downloadAppWholeContainer {
+  height: 89vh;
+  padding-block: 14%;
+  background-image: url("../../../Assets//images/downloadPageImages/downloadAppBG.png");
+  background-position: 9% -21%;
+  background-repeat: no-repeat;
+  background-size: 137%;
+
+  .downloadAppSec {
+    width: 60%;
+    gap: 1rem;
+
+    h1 {
+      font-size: 3.8rem;
+      letter-spacing: 0.2rem;
+      font-family: Quicksand-Bold;
+    }
+    h5 {
+      text-align: justify;
+      word-spacing: 0.4rem;
+      font-size: 1.4rem;
+      padding-inline: 23%;
+    }
+    span {
+      color: var(--carrotOrange);
+    }
+
+    .downloadButton {
+      font-family: Quicksand-SemiBold;
+      font-size: 2.3rem;
+      padding: 0.9rem 2.9rem;
+      border-radius: 50px;
+    }
+
+    .downloadAppIcons img {
+      width: 30px;
+    }
+  }
+}
+
+.DownloadappContainer {
+  transition: opacity 0.6s ease;
+}
+
+.blurred {
+  opacity: 0.3;
+}
+
+.modal-open {
+  overflow: hidden;
+}
+
+/* downloadApp.scss */
+
+.DownloadappContainer .content.blur {
+  filter: blur(5px);
+  pointer-events: none; /* Prevent interactions with blurred elements */
+}
+
+.DownloadappContainer .content {
+  transition: filter 0.3s ease;
+}

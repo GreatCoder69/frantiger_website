@@ -1,0 +1,50 @@
+/* * EXPLORING CONTENT */
+
+.list {
+    padding-left: 20%;
+}
+
+.EXPLORING-CONTENT {
+
+    padding-left: 8%;
+
+    h3 {
+        color: #e78c1c;
+        font-family: "Quicksand-Light";
+    }
+
+
+}
+
+.list ul li {
+    margin-left: 1.5rem;
+    font-family: "Quicksand-Light";
+    list-style: none;
+    /* padding-top: 1rem; */
+}
+
+.list ul li a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+    font-family: Quicksand-Light;
+}
+
+.list ul li a:hover {
+    color: #e78c1c;
+}
+
+/* & EXPLORING CONTENT */
+.exploringContentContainer h2 {
+    color: #e78c1c;
+    left: 15rem;
+    bottom: 3rem;
+    font-size: 26px;
+    font-weight: 200;
+}
+
+.exploringContentContainer span {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 200;
+}

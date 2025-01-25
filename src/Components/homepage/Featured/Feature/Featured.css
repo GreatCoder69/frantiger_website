@@ -1,0 +1,380 @@
+.fearureContent {
+    position: relative;
+}
+
+.featuresHead {
+    overflow: hidden;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-family: QuickSand-SemiBold;
+    padding-top: 15px;
+    position: relative;
+    font-weight: 300;
+    font-size: 40px;
+    font-weight: 900;
+    padding: 20px;
+    font-size: 45px;
+    font-family: QuickSand-Regular;
+    color: #e78c1c;
+}
+
+
+
+.exploringContentContainer span {
+    font-size: 23px;
+    font-weight: 200;
+}
+
+
+
+.fdetail {
+    color: white;
+    font-size: 25px;
+    font-family: QuickSand-Regular;
+    font-weight: 200;
+
+}
+
+
+.exploringContentContainer {
+    h2 {
+        color: #e78c1c;
+        left: 15rem;
+        bottom: 3rem;
+        font-size: 26px;
+        font-weight: 200;
+    }
+}
+
+/* / image before crousal// */
+
+.vnsys {
+    width: 100%;
+    height: 99vh;
+    overflow: hidden;
+    padding-top: 0 !important;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* / image up adjust tiger/ */
+    bottom: 22px;
+}
+.fullscreen-image {
+    position: relative;
+    width: 98rem;
+    height: 55rem;
+    /* object-fit: cover; */
+    /* object-fit: contain; */
+    object-fit: fill;
+    /*  bg image easy transition  */
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    /* / image up adjust tiger/ */
+    bottom: 50px;
+}
+
+
+
+
+/* /// buttons/// */
+
+.custom-prev-arrow,
+.custom-next-arrow {
+
+    color: white !important;
+    background-color: rgb(72, 71, 71, .1);
+    /* border: none !important; */
+    /* Remove border */
+    cursor: pointer !important;
+    position: absolute !important;
+    top: 55% !important;
+    transform: translateY(-50%) !important;
+    /* transition: all 0.3s ease !important; */
+
+}
+
+.custom-prev-arrow {
+    left: 50px !important;
+    /* Position previous button on the left */
+}
+
+.custom-next-arrow {
+    right: 50px !important;
+    /* Position next button on the right */
+}
+
+.custom-prev-arrow:hover,
+.custom-next-arrow:hover {
+    filter: brightness(1.5);
+    opacity: .9;
+
+    /* Zoom effect on hover */
+    /* Increase brightness on hover to make it shine */
+}
+
+.nav button:hover {
+    transform: scale(1.5);
+    /* Darker background color on hover */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    /* Increase shadow on hover */
+}
+
+
+
+
+
+/* carausals */
+
+.karousal-kontainer {
+    display: flex;
+    /* position: absolute; */
+    width: 100%;
+    /* justify-content: space-between; */
+    /* overflow-x: auto; */
+    white-space: nowrap;
+    bottom: 45px;
+    padding-top: 0px;
+    background-color: rgba(255, 255, 255, .0) !important;
+}
+
+.kontainer {
+    display: inline-block;
+    /* margin: 0 10px; */
+    max-width: 300px;
+    /* Max width for the container */
+    max-height: 200px;
+    /* Max height for the container */
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.01);
+    /* Add some shadow for depth */
+    /* box-sizing: border-box; */
+    /* Ensure padding and border are included in the element's total width and height */
+}
+
+
+.karousal-kontainer .carousalinner {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Style for hiding title and other details by default */
+.carousalinner {
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+/* /card image/ */
+.kard img {
+    width: 100%;
+    height: 210px;
+    /* transition: transform 0.5s ease; */
+    margin: 0px;
+
+}
+
+.kard {
+    /* width: 100%;
+    height: 30%; */
+    overflow: hidden;
+    /* position: relative; */
+    padding-left: 5px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    transform-origin: center;
+}
+
+
+/* / carausal card style/ */
+.kard:hover {
+    position: absolute;
+    transform: scale(1.05);
+    z-index: 100;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.9);
+
+}
+
+
+/* /cards + images height adjust/ */
+
+.featuredcontent {
+    padding: 0px;
+    margin: 0px;
+}
+
+.kontainer .kard .kicon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .01) !important;
+    cursor: pointer;
+
+}
+
+.kontainer .kard .kicon .fa {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    /* font-size: 80px; */
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+/* down kard */
+.kontainer .kard .slide {
+    width: 300px;
+    height: 170px;
+    transition: 0.3s;
+    cursor: pointer;
+    /* transform: scale(100px); */
+
+}
+
+.kard .slide.slide1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    transition: .9s;
+    transform: translateY(100px);
+    text-wrap: balance;
+
+}
+
+/* Carousals  card down slide */
+.kontainer .kard:hover .slide.slide1 {
+    transform: translateY(0px) scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Carousals */
+.kontainer .kard:hover .slide.slide2 {
+    /* position: relative;
+    top: 10rem; */
+    /* width: 400px; */
+    transform: translateY(0) scale(1.09);
+    /* Combine translateY and scale */
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.kontainer .kard .slide.slide2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    text-wrap: balance;
+    /* padding: 20px; */
+    transition: .8s;
+    transform: translateY(-90px);
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.001);
+}
+
+
+
+.kontainer .kard .slide.slide2::after {
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 0px;
+    bottom: 10px;
+    /* left: 50%;
+    left: 50%; */
+    transform: translateX(-60%);
+}
+
+.kontainer .kard .slide.slide2 .content p {
+    /* padding: 5px; */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #ffffff;
+    text-wrap: balance;
+}
+
+.kontainer .kard .slide.slide2 .content p {
+    /* padding-bottom: 5px; */
+    word-wrap: break-word !important;
+    text-align: center;
+    color: #ffffff;
+    text-wrap: balance;
+}
+
+
+.ktitle {
+    top:20px;
+    position:relative;
+    padding-top: 35px;
+    font-family: QuickSand-Bold;
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    text-wrap: balance;
+    font-weight: bold;
+    padding-top: 5px;
+    font-size: small;
+    margin: 0;
+}
+
+.kdetails {
+    font-family: Quicksand-Light;
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    text-wrap: balance;
+    font-size: x-small;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin: 0;
+    top:20px;
+    position:relative;
+}
+
+.conten {
+    /* width: 300px; */
+    padding-top: 35px;
+    word-wrap: break-word !important;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    text-align: center !important;
+    text-wrap: balance !important;
+    font-size: x-small;
+    padding-bottom: 5px;
+}
+
+.krate {
+    top:20px;
+    left:-40px;
+    position:relative;
+    font-family: QuickSand-SemiBold;
+    background-color: black;
+    color: white;
+    text-wrap: balance;
+    font-size: x-small;
+    font: bold;
+}
+
+.rating-container {
+    display: flex; /* Enable flexbox */
+    align-items: center; /* Vertically center text and image */
+    gap: 8px; /* Add spacing between text and image */
+  }
+  
+  .krate {
+    margin: 0; /* Reset margin to avoid spacing issues */
+  }
+  
+
+  

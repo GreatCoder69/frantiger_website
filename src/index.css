@@ -1,0 +1,34 @@
+@import "./Styles/commonClasses.css";
+@import "./Styles/animations.css";
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --grey: #919296;
+  --dark-grey: #3c3d42; 
+  --carrotOrange: #e78c1c;
+  
+  --link-color: #6a6b6e;
+}
+
+@font-face {
+  font-family: "Quicksand-Bold";
+  src: url("./Assets/Fonts/Quicksand-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Quicksand-Light";
+  src: url("./Assets/Fonts/Quicksand-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Quicksand-Medium";
+  src: url("./Assets/Fonts/Quicksand-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Quicksand-Regular";
+  src: url("./Assets/Fonts/Quicksand-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Quicksand-SemiBold";
+  src: url("./Assets/Fonts/Quicksand-SemiBold.ttf") format("truetype");
+}

@@ -1,0 +1,214 @@
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --grey: #919296;
+  --dark-grey: #3c3d42;
+  --orange: #e78c1c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: black;
+  // width: 100%;
+  // height: 100%;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+input,
+button {
+  border: 0 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+// .homePageContainer {
+//   height: 100vh;
+//   overflow-y: scroll;
+//   scroll-snap-type: y mandatory;
+//   scroll-behavior: smooth;
+// }
+
+.scroll-snap {
+  scroll-snap-align: center;
+}
+
+.scroll-snap-height {
+  height: 100vh;
+}
+.scroll-snap-height {
+  height: 100vh;
+}
+
+//////////////
+// app.scss
+
+// Variables
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+// Mixins for media queries
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == sm {
+    @media (max-width: $breakpoint-sm) {
+      @content;
+    }
+  } @else if $breakpoint == md {
+    @media (max-width: $breakpoint-md) {
+      @content;
+    }
+  } @else if $breakpoint == lg {
+    @media (max-width: $breakpoint-lg) {
+      @content;
+    }
+  } @else if $breakpoint == xl {
+    @media (max-width: $breakpoint-xl) {
+      @content;
+    }
+  }
+}
+
+// Base Styles
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  @include respond-to(md) {
+    padding: 0 10px;
+  }
+
+  @include respond-to(sm) {
+    padding: 0 5px;
+  }
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+
+  @include respond-to(md) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-item {
+    margin: 5px 15px;
+
+    @include respond-to(md) {
+      margin: 5px 0;
+    }
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+
+  @include respond-to(md) {
+    flex-direction: column;
+    margin: 0;
+  }
+}
+
+.col {
+  flex: 1;
+  padding: 15px;
+
+  @include respond-to(md) {
+    width: 100%;
+    padding: 10px 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+
+  @include respond-to(md) {
+    margin-bottom: 20px;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  .card-header {
+    background-color: #f5f5f5;
+    padding: 15px;
+
+    @include respond-to(sm) {
+      padding: 10px;
+    }
+  }
+
+  .card-body {
+    padding: 15px;
+
+    @include respond-to(sm) {
+      padding: 10px;
+    }
+  }
+}
+
+h1 {
+  font-size: 2.5rem;
+
+  @include respond-to(lg) {
+    font-size: 2.25rem;
+  }
+
+  @include respond-to(md) {
+    font-size: 2rem;
+  }
+
+  @include respond-to(sm) {
+    font-size: 1.75rem;
+  }
+}
+
+p {
+  font-size: 1rem;
+
+  @include respond-to(md) {
+    font-size: 0.95rem;
+  }
+
+  @include respond-to(sm) {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,58 @@
+.darknav {
+    background-color: #919296;
+    font-family: "Quicksand-Light";
+
+}
+
+.Details {
+    background-color: #3C3D42;
+    text-align: auto;
+    font-family: "Quicksand-Light";
+    font-size: smaller;
+    color: white;
+    /* height: 100vh; */
+    /* margin-bottom: 10px; */
+    /* padding-top: 90px !important; */
+    /* padding-bottom: 35px !important; */
+
+    /* height: 100vh;  */
+    /* margin-bottom: 10px; */
+    /* padding-top: 90px !important; */
+    /* padding-bottom: 35px !important; */
+
+}
+
+.inner {
+    /* padding-left: 100px; 
+     margin-bottom: 40px; */
+    /* font-family: "Quicksand-Light";*/
+    padding: 9rem 6rem 4.7rem; 
+
+}
+
+.listStyle {
+    list-style: Solid circle;
+    padding-left: 70px;
+    font-family: "Quicksand-Light";
+}
+
+.para {
+    /* padding-left: 110px; */
+    font-size: 25px;
+    padding-top: 5px;
+
+
+}
+
+.points {
+    padding-left: 20px;
+    font-family: "Quicksand-Light";
+    font-size: 25px;
+}
+
+.head {
+    text-align: left;
+    font-family: "Quicksand-SemiBold" !important;
+    font-size: 25px;
+
+}

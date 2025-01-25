@@ -1,0 +1,132 @@
+.dropDown {
+  // width: 6rem;
+  margin-right: 5rem;
+
+  .parent {
+    position: relative;
+    font-family: Quicksand-Medium !important;
+  }
+
+  .exploreNav {
+    // width: 7.8rem;
+    width: 0;
+
+    .exploreLink {
+      color: #636a7e !important;
+      font-family: Quicksand-Light !important;
+      padding: 0;
+      margin: 0;
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 8rem;
+        top: -11px;
+        height: 2.8rem;
+        left: -1.5rem;
+      }
+    }
+
+    &:hover {
+      color: var(--white) !important;
+    }
+  }
+
+  .parent a {
+    color: var(--black);
+    margin: 10px 24px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: Quicksand-Medium !important;
+  }
+
+  .parent > ul {
+    display: block;
+    color: var(--carrotOrange);
+    position: absolute;
+    background-color: white !important;
+    border-radius: 10px;
+    padding: 1rem 0rem 1rem;
+    width: 13rem;
+    top: 33px;
+  }
+  .parent:hover > ul a:hover {
+    color: var(--carrotOrange);
+  }
+
+  .child {
+    display: none;
+  }
+
+  .child li {
+    line-height: 2.3rem;
+  }
+
+  ul {
+    list-style: none;
+    // margin: 0;
+    padding: 0px;
+    // min-width: 12em;
+
+  }
+
+  ul ul ul {
+    left: 110%;
+  }
+}
+
+.parent:hover > ul ul {
+  top: -0.5rem !important;
+}
+
+.parent {
+  a::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 10px solid #fff;
+    margin: 23px 0 0 50px;
+    opacity: 0;
+  }
+
+  .parent:first-child a::after {
+    content: "";
+    height: 3rem;
+    width: 7rem;
+    position: absolute;
+  }
+  .parent:nth-child(4) a::after {
+    content: "";
+    height: 3rem;
+    width: 3.5rem;
+    position: absolute;
+  }
+
+  &:hover > a::before {
+    opacity: 1;
+  }
+}
+
+.child {
+  a::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 10px solid #fff;
+    margin: 1rem 0 0 13.6rem;
+    transform: rotate(268deg);
+    opacity: 0;
+  }
+
+  &:hover > a::before {
+    opacity: 1;
+  }
+}

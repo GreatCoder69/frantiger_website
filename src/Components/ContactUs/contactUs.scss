@@ -1,0 +1,132 @@
+//! CONTACT SECTION
+.contactContainer {
+  z-index: 50;
+  width: 2%;
+  bottom: 2%;
+  left: 1%;
+
+  .contactDiv {
+    color: white;
+    position: absolute;
+    bottom: 40%;
+    right: 68%;
+    
+    .spanning1 {
+      position: absolute;
+      bottom: 210px;
+    }
+    .spanning2 {
+      position: absolute;
+      bottom: 190px;
+    }
+    .spanning3 {
+      position: absolute;
+      bottom: 170px;
+    }
+    .spanning4 {
+      position: absolute;
+      bottom: 150px;
+    }
+    .spanning5 {
+      position: absolute;
+      bottom: 130px;
+    }
+    .spanning6 {
+      position: absolute;
+      bottom: 110px;
+    }
+    .spanning7 {
+      position: absolute;
+      bottom: 90px;
+    }
+    .spanning8 {
+      position: absolute;
+      bottom: 70px;
+    }
+    .spanning9 {
+      position: absolute;
+      bottom: 50px;
+    }
+    .spanning10 {
+      position: absolute;
+      bottom: 30px;
+    }
+    
+  }
+
+  p {
+    margin: 0;
+    font-family: none;
+    font-family: Quicksand-Light;
+
+    span {
+      outline: none !important;
+    }
+  }
+
+  .contactImg {
+    width: 100%;
+  }
+}
+
+// ! CONTACT SIDEBAR
+.sideBarConatainer {
+  .rounded-circle {
+    width: 2.7rem; /* Set your desired width */
+    height: 2.7rem; /* Set your desired height */
+    object-fit: cover; /* Ensures the image maintains its aspect ratio */
+  }
+  border-radius: 10px;
+  left: 3rem;
+  font-size: 1.2em;
+  width:250px;
+
+  p {
+    font-family: Quicksand-SemiBold !important;
+  }
+
+  img {
+    width: 3.5rem;
+  }
+
+  .downloadBtn {
+    font-size: 0.9rem;
+    button {
+      padding: 0.7rem 1.5rem;
+      border-radius: 30px;
+
+      &:hover {
+        background-color: yellow;
+      }
+    }
+  }
+
+  .downloadBtn:hover span {
+    color: #e78c1c;
+  }
+}
+
+.msgContainer:hover button {
+  color: #e78c1c;
+}
+.msgContainer:hover img {
+  border-radius: 60%;
+  background: #e78c1c;
+}
+
+.socialIconsDiv {
+  button {
+    &:hover {
+      background: #e78c1c;
+      border-radius: 60px;
+    }
+  }
+}
+
+.contactImg {
+  transition: transform 0.5s ease-in-out; // Smooth transition for the flip
+}
+
+.contactImg.flipped {
+  transform: scaleX(-1); // Horizontal flip
+}

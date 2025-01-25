@@ -1,0 +1,72 @@
+.announcement-container {
+    margin-top: 15% !important;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    /* background-color: #919296; */
+    opacity: .75;
+    /* Center the content */
+}
+
+.announcement-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #E78C1C;
+    /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    /* Animation */
+}
+
+.announcement-button:hover {
+    background-color: #ff9933;
+    /* Slightly lighter color on hover */
+    transform: translateY(-4px);
+    /* Lift effect on hover */
+}
+
+.announcement-form-container {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.announcement-form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+    /* Align labels and inputs to the left */
+}
+
+.announcement-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.announcement-form input,
+.announcement-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.announcement-form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,60 @@
+.Education {
+    color: white;
+    font-family: "Quicksand-Light";
+    background: #000;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0;
+    height: 100vh;
+}
+
+.eimg {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 855px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(55deg, rgba(0, 0, 0, 0.9)50%, transparent 50%), linear-gradient(to bottom, #353637 50%, transparent 65%);
+
+
+}
+
+.eimg {
+    img {
+        max-width: 720px;
+        height: auto;
+        filter: invert(100%);
+        padding-bottom: 50px;
+        padding-right: 60px;
+        z-index: 0;
+    }
+}
+
+/* ///Education listing heading/// */
+
+.ETitle {
+    position: absolute;
+    top: 64%;
+    /* Adjust as needed */
+    left: 18px;
+    /* Adjust as needed */
+    transform: translateY(-50%);
+    color: white;
+    font-family: "Quicksand-Bold";
+    padding-top: 35px;
+}
+
+.ETitleinner {
+    padding-left: 130px;
+}
+
+.ETitle h1 {
+    font-size: 75px;
+
+}
+
+.ETitle span {
+    color: #e78c1c;
+}

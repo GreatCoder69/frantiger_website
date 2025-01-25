@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Quicksand-SemiBold';
+    src: url('../../../../Assets//Fonts/Quicksand-SemiBold.ttf') format('truetype');
+  }
+
+@font-face {
+    font-family: 'Quicksand-Regular';
+    src: url('../../../../Assets/Fonts/Quicksand-Regular.ttf') format('truetype');
+  }
+
+.heroSection{
+  padding-top: 5rem;
+}
+
+/* * HERO SECTION CONTENT */
+.heroSecContent{
+  padding-top: 1rem;
+  margin-left: 2rem;
+  padding-inline: 3rem;
+  margin-top: 1.5rem;
+}
+.heroHeading{
+  font-family: "Quicksand-SemiBold";
+  font-size: 4em;
+  letter-spacing: 0.2rem;
+}
+.heroHeading span{
+  color: #e78c1c;
+}
+.heroPara{
+  font-family: Quicksand-Regular;
+}
+
+
+/* * INPUT */
+
+.inputplaceholder{
+  border: 0;
+  padding-block: 0.9rem;
+  padding-left: 1rem;
+  padding-right: 19rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.inputplaceholder::placeholder{
+  padding-right: 60rem;
+  font-size: 1.1rem;
+  font-weight: 100;
+}
+.inputSearchBtn{
+  right: 6.4rem;
+    background-color: #e78c1c;
+    height: 53px;
+    border-radius: 20%;
+}
+
+
+/* HERO SECTION TIGER IMAGE */
+.tigerImg{
+  width: 42rem;
+}

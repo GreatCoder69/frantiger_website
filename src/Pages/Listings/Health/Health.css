@@ -1,0 +1,56 @@
+.Health {
+    color: white;
+    font-family: "Quicksand-Light";
+    background: #000;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0;
+    height: 100vh;
+}
+
+.Himg {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 855px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(55deg, rgba(0, 0, 0, 0.9)50%, transparent 50%), linear-gradient(to bottom, #353637 50%, transparent 65%);
+  
+
+}
+
+.Himg img {
+    max-width: 730px;
+    height: auto;
+    filter: invert(100%);
+
+
+}
+
+/* ///listing heading/// */
+
+.HTitle {
+    position: absolute;
+    top: 64%;
+    /* Adjust as needed */
+    left: 22px;
+    /* Adjust as needed */
+    transform: translateY(-50%);
+    color: white;
+    font-family: "Quicksand-Bold";
+    padding-top: 45px;
+
+}
+
+.HTitle h1 {
+    font-size: 75px;
+    padding-left: 240px !important;
+    padding-top: 40px;
+}
+
+.HTitle span {
+    color: #e78c1c;
+
+}

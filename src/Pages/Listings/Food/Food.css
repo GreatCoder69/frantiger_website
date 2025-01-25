@@ -1,0 +1,69 @@
+.food {
+    color: white;
+    font-family: "Quicksand-Light";
+    background: #000;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0;
+    height: 100vh;
+}
+
+.fimg {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 850px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(55deg, rgba(0, 0, 0, 0.9)50%, transparent 50%), linear-gradient(to bottom, #353637 50%, transparent 65%);
+
+
+}
+
+.fimg img {
+    max-width: 780px;
+    padding-bottom: 45px;
+    height: auto;
+    filter: invert(100%);
+    padding-bottom: 80px;
+
+
+}
+
+/* ///listing heading/// */
+
+.FoodTitle {
+    position: absolute;
+    top: 65%;
+    /* Adjust as needed */
+    left: 22px;
+    /* Adjust as needed */
+    transform: translateY(-50%);
+    color: white;
+    font-family: "Quicksand-Bold";
+    padding-left: 20px;
+
+
+}
+
+.FTitleinner {
+    margin: 0px !important;
+    position: relative;
+    display: inline-block;
+    padding-left: 235px;
+
+}
+
+.FTitle h1 {
+    padding-top: 18px;
+    font-size: 75px;
+    padding: 0px;
+    padding-left: 220px;
+}
+
+.FTitle span {
+    color: #e78c1c;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

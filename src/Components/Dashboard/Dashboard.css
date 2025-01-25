@@ -1,0 +1,186 @@
+.details-container {
+    padding: 20px;
+    font-family: Quicksand;
+}
+
+.top-banner {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.info-banner,
+.alert-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+.info-banner {
+    background-color: #007bff;
+}
+
+.alert-banner {
+    background-color: #dc3545;
+}
+
+.close-btn {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.metrics-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    color: #919296;
+}
+
+.metric-card {
+    cursor: pointer;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    width: 32%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    color: #000000;
+    transition: background-color 0.3s, box-shadow 0.3s;
+
+}
+
+.metric-card:hover,
+.metric-card.active {
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.metric-number {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.metric-label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #919296;
+}
+
+.metric-description {
+    font-size: 14px;
+    color: #919296;
+}
+
+.analytics-section {
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+
+    h3 {
+        color: #000000 !important;
+        background-color: #e78c1c;
+        padding: 3px;
+        border-radius: 5px;
+    }
+}
+
+.analytics-content {
+    margin-top: 20px;
+    color: #919296;
+}
+
+.analytics-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+
+.chart {
+    height: 300px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: #919296;
+}
+
+.chart-placeholder {
+    color: #919296;
+    font-size: 18px;
+}
+
+.analytics-details {
+    margin-top: 20px;
+
+}
+
+.analytics-details h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+.activities-section {
+    margin-top: 40px;
+    color: #000000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+
+    h3 {
+        background-color: #919296;
+        border-radius: 5px;
+        padding: 4px;
+    }
+}
+
+.recent-activities,
+.rating-alerts {
+    margin-bottom: 30px;
+}
+
+.activity,
+.alert {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.activity-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.activity-content p {
+    margin: 0;
+    font-size: 16px;
+    color: #000000;
+}
+
+.activity-date,
+.alert-date {
+    font-size: 14px;
+    color: #919296;
+    margin-left: auto;
+
+}
+
+
+/*  */
+.DashboardDate {
+    font-size: 14px;
+    color: #919296;
+
+}

@@ -1,0 +1,81 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+.review-page {
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #919296;
+    padding: 12px;
+    border-radius: 5px;
+
+}
+
+.header-left h2 {
+    font-family: Quicksand-Bold;
+    /* color: #000000;*/
+    color: #FFFFFF;
+}
+
+.tabs {
+    display: flex;
+    gap: 15px;
+}
+
+.tab {
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    background-color: #E78C1C;
+    color: white;
+
+}
+
+.tab.active {
+    background-color: #E78C1C;
+    color: #000000;
+}
+
+.reviews-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.review {
+
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review p {
+    margin: 0;
+    color: #000000;
+}
+
+.date {
+    color: #919296;
+    font-size: 14px;
+}
+
+.rating {
+    margin: 10px 0;
+}
+
+.rating .fa-star {
+    color: #E78C1C;
+    /* Gold color for stars */
+    font-size: 20px;
+}
+
+.rating .far.fa-star {
+    color: #919296;
+    /* Gray color for empty stars */
+}

@@ -1,0 +1,853 @@
+.ListnowmainMain {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.Listnowmain {
+    width: 100% !important;
+    height: auto;
+    margin: auto;
+    border-radius: 3px;
+    /* background-color: #000000; */
+    /* margin: 20px; */
+    /* background-color: rgb(0, 0, 0); */
+    background-image: url("../../../Assets/images/Parallax/blackBGTexture.png");
+    width: 100% !important;
+    /* background-position: top left; */
+    /* background-repeat: repeat;*/
+    background-attachment: fixed;
+
+}
+
+.bgBox {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9)20%, transparent 55%), linear-gradient(to bottom, #353637 95%, transparent 70%);
+}
+
+.Rcontent {
+    /* position: relative; */
+    top: 40px;
+    right: 0px !important;
+    padding-left: 850px;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.RCimage-container {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.RCimage {
+    width: 550px;
+    height: 420px;
+    padding-top: 20px;
+    padding-right: 0%;
+
+}
+
+.Rpara {
+    padding: 0px;
+    width: 550px;
+    text-align: center;
+    text-wrap: balance;
+    height: auto;
+    font-family: "QuickSand-Light";
+    /* box-shadow: inset 15px 15px 15px 10px #a79595; */
+}
+
+.ListnowTittle {
+    font-size: 18px;
+    top: 580px;
+    left: 220px;
+    position: absolute;
+    /* padding: 50px; */
+    text-align: center;
+    justify-content: center;
+    font-family: QuickSand-Medium;
+    font-weight: lighter;
+    height: auto;
+
+}
+
+.listnowheading {
+    text-shadow: 3px -7px #1d1e1e;
+    top: 230px;
+    left: 200px;
+    position: absolute;
+    /* padding: 50px; */
+    text-align: center;
+    justify-content: center;
+    font-family: QuickSand-Bold;
+    font-weight: lighter;
+    height: auto;
+    font-size: 0px !important;
+    color: white;
+}
+
+.listnowheadingpara {
+    color: white !important;
+    font-size: 12px !important;
+
+}
+
+
+
+/* /     ---------    / */
+.parawithform {
+    height: auto;
+
+}
+
+.submitform {
+    height: auto;
+    padding: 18px;
+    position: relative;
+    /*  */
+    background-color: rgb(0, 0, 0);
+    background-image: url("../../../Assets/images/Parallax/blackBGTexture.png");
+    width: 100% !important;
+    background-position: top left;
+    background-repeat: repeat;
+    background-attachment: fixed;
+
+
+
+}
+
+.paragraph {
+    line-height: 2;
+    font-size: medium;
+    padding-top: 0px;
+    border-radius: 8px;
+    height: auto;
+    width: 900px;
+    border: solid 1.8px #919296;
+    padding: 30px;
+    background: #000000;
+    /* padding: 50px; */
+    /* text-align: center; */
+    justify-content: center;
+    font-family: QuickSand-Regular;
+    font-weight: lighter;
+    padding-bottom: 10px;
+    /* padding-left: 10px; */
+    margin-left: 100px;
+    text-indent: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 40px;
+
+
+}
+
+.highlit {
+    color: #e78c1c;
+}
+
+.Leftpara {
+    border: 1px #3d3d3d;
+    height: auto;
+}
+
+/*  form apply now */
+.formapplynw {
+    margin-top: 30px;
+    background-color: #000000;
+    margin-left: 80px;
+    position: absolute;
+    right: 65px;
+    top: 0px;
+    border: solid 1.8px #919296;
+    border-radius: 10px;
+    transition: transform 0.2s;
+    width: 360px;
+    /* text-align: center; */
+    /* margin-right: 55px; */
+    /* justify-content: center;
+    align-items: center; */
+    padding-bottom: 10px;
+
+
+
+}
+
+.formsbutton {
+    border: 2px solid #e78c1c !important;
+    font-size: 25px;
+    /* padding-left: 30px !important; */
+    width: 280px !important;
+    font-family: QuickSand-Regular;
+    color: #e78c1c;
+    background: #000000;
+    /* border-radius: 2px; */
+    width: auto;
+    padding: 6px !important;
+    display: flex;
+    margin: 8px;
+    margin-left: 40px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    text-align: center !important;
+    justify-content: center;
+
+}
+
+.formsbutton:hover {
+    color: #000000;
+    background-color: #e78c1c;
+
+}
+
+
+.forminput {
+    height: auto;
+    border-radius: 8px !important;
+    font-family: QuickSand-Regular;
+    /* color: white; */
+    background-color: #000000;
+    border: 2px solid #919296 !important;
+    border-radius: 2px;
+    width: 280px;
+    padding: 12px !important;
+    display: flex;
+    margin: 14px;
+    margin-left: 40px;
+    color: white;
+
+
+}
+
+.hh {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    color: white;
+    background: #3c3d42;
+    font-size: 30px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.formbutton {
+    border: 1px solid #e78c1c;
+    font-size: 20px;
+    width: 250px;
+    font-family: QuickSand-Regular;
+    color: #e78c1c;
+    background: #000000;
+    border-radius: 2px;
+    width: 280px;
+    padding: 10px !important;
+    display: flex;
+    margin: 8px;
+    margin-left: 50px;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.formbutton :hover {
+    background-color: #e78c1c;
+    color: #000000;
+
+}
+
+.contactbox {
+    justify-content: space-between;
+    position: absolute;
+    right: 65px;
+    top: 535px;
+    border: 2px solid #919296 !important;
+    border-radius: 10px;
+    width: 360px;
+    background-color: #000000;
+    height: auto;
+    /* margin-top: 80px; */
+    padding: 6px;
+    /* text-align: center; */
+    cursor: pointer;
+
+
+    hr {
+        border: 2px solid #919296 !important;
+
+    }
+
+
+}
+
+
+.blankbox {
+    position: absolute;
+    right: 65px;
+    top: 780px;
+    border: 2px solid #919296 !important;
+    border-radius: 10px;
+    width: 360px;
+    height: 430px;
+    background-color: #000000;
+
+}
+
+
+/* related listing  */
+
+.relatedthings {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(-20deg, rgba(0, 0, 0, 0.9)20%, transparent 55%), linear-gradient(to bottom, #353637 95%, transparent 70%);
+
+}
+
+.relatedthingsinner {
+    height: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.Relateimg {
+    border-radius: none !important;
+    width: 400px;
+    height: 300px;
+    justify-content: center;
+
+
+
+}
+
+.RLcards {
+    width: 200px;
+    height: 230px;
+    padding: 20px;
+}
+
+.Relateimgcontainer {
+    padding: 25px;
+    padding-right: 10px;
+    padding-left: 20px;
+    margin: 10px;
+}
+
+.relatedthingsheading {
+    position: absolute;
+    top: 110px;
+    left: 50px;
+    font-size: 38px;
+    font-family: QuickSand-SemiBold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: left;
+
+}
+
+/* / buttons/ */
+.RelatedMaincontainer {
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+
+.LeftRButton,
+.RightRButton {
+    color: #3c3d45;
+    opacity: .6;
+    /* Remove border */
+    cursor: pointer !important;
+    position: absolute !important;
+    /* top: 90% !important; */
+    transform: translateY(-55%) !important;
+    background-color: transparent;
+    /* transition: all 0.3s ease !important; */
+    padding: 0px;
+    margin: 0px;
+    border-radius: 8px !important;
+
+}
+
+.LeftRButton {
+    /* z-index: 99; */
+    left: 130px;
+    top: 25%;
+    padding: 10px;
+    /* Position previous button on the left */
+}
+
+.RightRButton {
+    top: 80% !important;
+    right: -0px;
+    padding-right: 135px;
+    /* Position next button on the right */
+}
+
+.LeftRButton:hover,
+.RightRButton:hover {
+    filter: brightness(1.65);
+    opacity: .9;
+    transform: scale(1.1);
+
+    /* Zoom effect on hover */
+    /* Increase brightness on hover to make it shine */
+}
+
+.RelatedMaincontainer button:hover {
+    transform: scale(1.5);
+    /* Darker background color on hover */
+    /* box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); */
+    /* Increase shadow on hover */
+}
+
+
+
+/* / asked form/ */
+
+
+.askedqst {
+    font-family: 'QuickSand-Medium';
+    padding-left: 80px;
+    /* padding-bottom: 50px; */
+    height: auto;
+
+}
+
+.Frequently-Asked-Question {
+
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: 'QuickSand-Bold';
+
+
+}
+
+.askedqstinner {
+    font-family: 'QuickSand-Medium';
+    height: auto;
+}
+
+.collapsible {
+
+    background-color: #000000;
+    /* color: white; */
+    cursor: pointer;
+    padding: 10px;
+    width: 90%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border: 2px solid #919296 !important;
+    border-radius: 10px;
+    /* padding-bottom: 20px; */
+    margin-bottom: 20px;
+}
+
+.collapsible .header {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.collapsible .header span {
+    margin-right: 10px;
+}
+
+.collapsible .icon {
+    margin-left: auto;
+    font-size: 25px;
+    color: #e78c1c;
+}
+
+
+.content {
+    padding-top: 5px;
+    font-family: 'QuickSand-Medium';
+    padding: 0 18px;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #000000;
+    /* border: 1px solid #ccc; */
+    margin-top: -1px;
+    /* to avoid double borders between collapsed items */
+}
+
+
+/*  rating form      ----------------- */
+.rateusbox {
+    /* background-color: #3c3d42; */
+    padding: 10px;
+    width: 91%;
+    height: auto;
+    /* justify-content: center;
+    text-align: center; */
+    padding-left: 80px;
+}
+
+.rateusboxheading {
+    font-family: QuickSand-Medium;
+    padding: 20px;
+    display: flex;
+}
+
+.rateing-box {
+    border: 2px solid #919296 !important;
+    border-radius: 10px;
+    background-color: #3c3d42;
+    text-align: left !important;
+    /* justify-content: left !important; */
+
+
+
+    hr {
+        border: 2px solid #919296 !important;
+
+    }
+
+}
+
+.rateformsbutton {
+    /* justify-content: center;
+    text-align: center; */
+    border: 2px solid #e78c1c !important;
+    font-size: 25px;
+    /* width: 250px; */
+    font-family: QuickSand-Regular;
+    color: #e78c1c;
+    background: #000000;
+    /* border-radius: 2px; */
+    width: auto;
+    padding: 10px !important;
+    display: flex;
+    margin: 18px;
+    margin-left: 60px;
+    /* padding-bottom: 39px; */
+}
+
+.rateformbutton :hover {
+    background-color: #e78c1c;
+    color: #000000;
+}
+
+
+/* star logo */
+.star {
+    position: relative;
+
+    display: inline-block;
+    width: 0;
+    height: 0;
+
+    margin-left: .9em;
+    margin-right: 1.3em;
+    margin-bottom: 1.2em;
+
+    border-right: .3em solid transparent;
+    border-bottom: .7em solid #FC0;
+    border-left: .3em solid transparent;
+
+    /* Controlls the size of the stars. */
+    font-size: 18px;
+
+
+    &:before,
+    &:after {
+        content: '';
+
+        display: block;
+        width: 0;
+        height: 0;
+
+        position: absolute;
+        top: .6em;
+        left: -1em;
+
+        border-right: 1em solid transparent;
+        border-bottom: .7em solid #FC0;
+        border-left: 1em solid transparent;
+
+        transform: rotate(-35deg);
+    }
+
+    &:after {
+        transform: rotate(35deg);
+    }
+}
+
+
+.iconcollapse {
+    margin-left: auto;
+    font-size: 30px;
+    color: #e78c1c;
+    cursor: pointer;
+
+}
+
+/*  */
+.Rheadinner {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* This will distribute space between elements */
+    background-color: #3c3d42;
+
+}
+
+.Browselisting {
+    display: flex;
+    flex-direction: column;
+    /* Stack the children vertically */
+    font-size: small;
+    background-color: #3c3d42;
+    font-family: "QuickSand-Regular";
+    padding-right: 735px;
+}
+
+.Browselistingheader {
+    background-color: #3c3d42;
+    font-family: QuickSand-Regular !important;
+    font-size: 15px;
+}
+
+.starss {
+    padding-top: 10px;
+    padding-left: 55px;
+    /* Adjust padding if needed */
+    padding-bottom: 30px;
+}
+
+.imagbutton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center align the content */
+    gap: 5px;
+    /* Add some space between the elements */
+}
+
+.imagbuttonpara {
+    padding-right: 18px;
+    justify-content: center;
+    text-align: center;
+    font-family: QuickSand-Regular !important;
+
+}
+
+.BrowseButton {
+    font-size: 24px;
+    border: 2px solid #e78c1c !important;
+    color: #e78c1c;
+    background-color: #3c3d42;
+    /* padding: 6px; */
+    padding: 4px 6px 4px 6px;
+
+    cursor: pointer;
+}
+
+.BrowseButton:hover {
+    color: #000000;
+    background-color: #e78c1c;
+}
+
+
+
+.rateforminput {
+    padding-left: 10px;
+    width: 90%;
+    min-height: 45px;
+    background-color: #000000;
+    color: white;
+    font-family: QuickSand-Regular;
+
+    height: auto;
+    border-radius: 8px;
+    font-family: QuickSand-Regular;
+    border: 2px solid #919296 !important;
+    border-radius: 8px;
+    padding: 15px !important;
+    display: flex;
+    margin-left: 55px;
+
+
+}
+
+.headinput {
+    color: white;
+    margin-left: 60px;
+    font-size: 22px;
+    font-family: QuickSand-Regular !important;
+    padding-top: 10px;
+
+    label {
+
+        font-family: QuickSand-Regular !important;
+
+    }
+}
+
+
+/* bottom review  */
+
+.donereview {
+    /* margin: 20px; */
+    height: auto;
+    width: 100% !important;
+    background: linear-gradient(-90deg, rgba(0, 0, 0, 0.7)55%, transparent 75%), linear-gradient(to bottom, #0f0f0f 100%, transparent 70%);
+
+}
+
+
+.reviewcards {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/*  */
+
+.container {
+    /* position: relative; */
+    width: 950px;
+    /* Adjust as needed */
+    height: 500px;
+    /* Adjust as needed */
+    background-color: transparent;
+    margin: auto;
+    padding: auto;
+}
+
+.background-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url('/src/Assets/otherImage/DQuote.png');
+    background-size: 35%;
+    background-position: center;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.background-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(128, 128, 128, 0.5), rgba(0, 0, 0, 0.5));
+    /* Adjust the opacity as needed */
+    z-index: 1;
+    /* Ensure the overlay is above the image */
+}
+
+.reviewcardshh {
+    position: absolute;
+    top: 40%;
+    /* Adjust as needed */
+    left: 42%;
+    /* transform: translateX(-50%); */
+    font-family: 'QuickSand-Regular';
+    text-align: center;
+    color: white !important;
+    /* margin: 0; */
+    font-size: 25px;
+    z-index: 3;
+
+    h1 {
+        filter: invert(1) brightness(10000%);
+    }
+
+
+}
+
+.nav-buttons {
+    position: absolute;
+    top: 55%;
+    /* Adjust as needed */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+
+}
+
+.leftnavbtn {
+    transform: rotate(180deg);
+}
+
+.rightnavbtn,
+.leftnavbtn {
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+    filter: invert(1) brightness(1000%);
+
+}
+
+.rightnavbtn :hover,
+.leftnavbtn:hover {
+    filter: grayscale(0) !important;
+    /* transform: scale(1.1); */
+
+}
+
+.Reviewcardcontainer {
+    display: flex;
+}
+
+.Reviewcard {
+
+    padding-top: 20px;
+    margin-top: 50px;
+    /* position: relative; */
+    width: 350px !important;
+    height: 280px !important;
+    border: 1px solid#000000;
+    border-radius: 12px;
+    background-color: #0f0f0f;
+    box-shadow: 1em 0em 1em 0.5em #000000;
+    padding: 10px;
+
+    position: relative;
+    /* Ensure the container allows absolute positioning */
+    width: 100%;
+    /* Adjust the width as needed */
+    height: 100%;
+    /* Adjust the height as needed */
+    overflow: hidden;
+
+    .rvimage {
+
+        position: absolute;
+        top: 10px;
+        left: 15px;
+        clip-path: circle(closest-side at 2rem 2rem);
+        /* Adjust the clip-path coordinates as needed */
+        width: auto;
+        /* Ensure the image scales properly */
+        height: auto;
+        /* Ensure the image scales properly */
+    }
+
+    .rvimagepara {
+        padding-top: 100px;
+
+
+    }
+
+}
+
+.Reviewcard :hover {
+    transform: scale(1.1);
+    /* background-color: #0f0f0f; */
+
+}

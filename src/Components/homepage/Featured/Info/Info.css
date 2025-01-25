@@ -1,0 +1,135 @@
+.Infomain {
+    background-color: #0b0b0b;
+    height: auto 50vh;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* box-sizing: border-box; */
+    padding-top: 50px;
+
+    margin: 0;
+
+}
+
+
+.Info {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    background-color: #0b0b0b;
+}
+
+.Infocontent {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    background-color: #0b0b0b;
+
+}
+
+
+/* // startup image// */
+
+.Infocontent1 {
+    margin: 0 !important;
+    display: flex;
+    justify-content: flex-end;
+    /* Aligns children to the right */
+    align-items: center;
+    /* Centers vertically */
+    padding-right: 50px;
+    position: relative;
+    /* Needed for absolute positioning of the overlay */
+    background-color: #0b0b0b;
+}
+
+
+/* ////// */
+h6 {
+    padding: 0px;
+    text-align: left;
+
+}
+
+.copyright {
+    opacity: .7;
+}
+
+.Infocontainer,
+h6 {
+    color: white !important;
+    font-family: Quicksand-SemiBold !important;
+    font: bolder;
+    font-size: 20px;
+    padding-left: 60px;
+    background-color: #0b0b0b;
+
+}
+
+.hr {
+    color: white;
+    padding-left: 75px;
+    padding-right: 75px;
+    background-color: #0b0b0b;
+    margin: 0 !important;
+
+}
+
+/* / down box/ */
+.downside {
+    color: white;
+    font-family: Quicksand-Light;
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    font-size: large;
+    background-color: #0b0b0b;
+
+}
+
+.slogo {
+    color: white;
+    font-family: Quicksand-Regular;
+    flex: 1;
+    padding-left: 110px;
+    text-align: center;
+    display: flex;
+    padding-bottom: 15px;
+    background-color: #0b0b0b;
+
+}
+
+/* / social logo /// */
+
+
+.social-icons {
+    position: relative;
+    filter: invert(55%);
+    bottom: 20px;
+    padding-left: 600px;
+
+}
+
+.social-icons a {
+    margin-right: 5px;
+    /* Adjust spacing between icons */
+}
+
+.social-icons img {
+    width: 40px;
+    /* Set the width of the icons */
+    height: 40px;
+    /* Set the height of the icons */
+}
+.social-icons a img {
+    transition: filter 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-icons a:hover img {
+    filter: brightness(0) saturate(100%) invert(48%) sepia(80%) saturate(746%) hue-rotate(-20deg) brightness(93%) contrast(102%);
+    transform: scale(1.1); /* Optional: Add a slight zoom effect */
+  }

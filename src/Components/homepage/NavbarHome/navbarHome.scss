@@ -1,0 +1,110 @@
+.headerParentContainerHome {
+  position: fixed;
+  // width: 100%;
+  top: 0;
+  z-index: 1000;
+  padding: 1%;
+  background-color: rgba(0, 0, 0, 0.859);
+  transition: all 1s ease;
+
+  &.scrolled {
+    .headerContainerHome {
+      padding: 10px 20px;
+
+      .pages {
+        display: flex;
+        margin-left: 29%;
+        height: 2rem;
+        a {
+          text-decoration: none !important;
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+}
+
+.logoDivSec {
+  width: 11%;
+  // position: absolute;
+}
+
+.headerContainerHome {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+
+  .pages {
+    display: flex;
+    margin-left: 71%;
+    gap: 20% !important;
+
+    a {
+      text-decoration: none !important;
+      font-size: 1rem;
+    }
+  }
+
+  .servicesDivBeforeScrolled {
+    position: relative;
+    bottom: 2.5rem;
+
+    .serviceIcons2 {
+      position: absolute;
+      right: 0rem;
+      top: 4.8rem;
+    }
+    .serviceIcons3 {
+      position: absolute;
+      right: 0rem;
+      top: 7.9rem;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    img {
+      width: 30px;
+      background: var(--carrotOrange);
+      border-radius: 50px;
+    }
+  }
+}
+
+.servicesDivAfterScrolled {
+  display: flex;
+  gap: 15px;
+  position: absolute;
+  top: 38%;
+  right: 3%;
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    width: 30px;
+    background: var(--carrotOrange);
+    border-radius: 50px;
+  }
+}
+
+.pageLink {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.transition-for-nav {
+  transition: all 1s ease;
+}
+
+.serviceIcons1 {
+  margin-left: 5rem;
+
+  img {
+    width: 30px;
+    background: var(--carrotOrange);
+    border-radius: 50px;
+  }
+}

@@ -1,0 +1,211 @@
+/* Dashboard Layout CSS */
+
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.header-with-button-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* Ensures space between logo and toggle button */
+  padding: 10px;
+  background-color: #3c3d42;
+}
+
+.header-with-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 10px;
+}
+
+.toggle-button {
+  /* margin-top: 10px; */
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+  width: 25px;
+  transition: padding 0.6s ease, left 0.6s ease;
+  z-index: 2;
+}
+
+.navi-title {
+  font-family: Quicksand-SemiBold;
+  color: white;
+  font-size: 20px;
+}
+
+.navi-title:active,
+.navi-title.selected {
+  color: black !important;
+  background-color: #e78c1c;
+}
+
+.left-navigation {
+  font-family: Quicksand-SemiBold;
+  background-color: #919296;
+  color: white;
+  width: 18%;
+  transition: width 0.3s;
+}
+
+.left-navigation.closed {
+  width: 60px;
+}
+
+.left-navigation ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.left-navigation li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.left-navigation li:hover,
+.left-navigation li.selected {
+  background-color: #444;
+}
+
+.left-navigation li img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.left-navigation.closed li img {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.left-navigation.closed li span {
+  display: none;
+}
+
+.main-section {
+  flex: 1;
+  background-color: #f9f9f9;
+  overflow-y: auto;
+  transition: margin-left 0.3s;
+}
+
+.top-navigation {
+  display: flex;
+  justify-content: flex-end;
+  background-color: white;
+  font-family: Quicksand-SemiBold;
+  padding: 12px 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.top-navigation ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.top-navigation li {
+  margin: 0 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.top-navigation li img {
+  width: 26px;
+  height: 26px;
+  margin-right: 5px;
+}
+
+.profilebuttons {
+  color: black;
+  background-color: white;
+  padding: 4px;
+  font-family: Quicksand-Regular;
+}
+
+.profilebuttons:hover {
+  border-radius: 4px;
+  background-color: #ddd;
+  color: #e78c1c;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Dropdown styling */
+.dropdown-logout-li {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-logout {
+  position: relative;
+}
+
+.profile-settings-logout {
+  padding: 2px;
+  color: white;
+  font-size: 16px;
+  border: none;
+}
+
+/* Hide dropdown content by default */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: -55px;
+  top: 100%;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Style for the links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-family: Quicksand-Regular;
+  display: block;
+}
+
+/* Show dropdown content on hover */
+.dropdown-logout-li:hover .dropdown-content,
+.dropdown-logout-li .dropdown-content:hover {
+  display: block;
+}
+
+/* Change background color on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: #e78c1c;
+}
+
+/* Style for the profile settings image */
+.profile-settings-logout:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Active state styling */
+.left-navigation li.selected {
+  background-color: #444;
+}
+
+.left-navigation li.selected .navi-title {
+  color: black;
+  /* background-color: #e78c1c; */
+  padding: 2.5px;
+  border-radius: 4px;
+}

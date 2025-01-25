@@ -1,0 +1,121 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Quicksand-SemiBold', sans-serif;
+    background-color: #f0f2f5;
+}
+
+.profile-main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: #333;
+}
+
+.profile-main h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.profile-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #007bff;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.submit-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.profileinput {
+    background-color: #f0f2f5;
+    border: 2px solid #ccc;
+    color: #333;
+}
+
+.nameprofile,
+.profileDetailName,
+.ProfileCountry,
+.ProfilePasswordf {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.profileuserimage {
+    display: block;
+    margin: 0 auto 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+
+    .nameprofile,
+    .profileDetailName,
+    .ProfileCountry,
+    .ProfilePasswordf {
+        grid-template-columns: 1fr;
+    }
+}
+
+.ButtonsForProfile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Profileurl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}

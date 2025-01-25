@@ -1,0 +1,127 @@
+.listing-container {
+    padding: 20px;
+    background-color: #FFFFFF;
+    min-height: 100vh;
+}
+
+h2 {
+    color: #000000;
+    background-color: #919296;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s;
+    color: #FFFFFF;
+    background-color: #e78c1c;
+}
+
+.tab.active,
+.tab:hover {
+    background-color: #e78c1c;
+    color: #000000;
+}
+
+.google-analytics {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* margin-bottom: 20px; */
+    border: #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.google-analytics input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.google-analytics button {
+    padding: 10px 20px;
+    background-color: #e78c1c;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.google-analytics button:hover {
+    background-color: #c76e14;
+    color: #000000;
+}
+
+.listing-tablee {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.listing-tablee table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.listing-tablee th,
+.listing-tablee td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.listing-tablee th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.listing-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #000000;
+}
+
+.listing-title img {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+}
+
+.listing-category {
+    color: #919296;
+    font-size: 14px;
+}
+
+.status {
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.status.published {
+    background-color: #28a745;
+}
+
+.status.pending {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.status.expired {
+    background-color: #dc3545;
+}

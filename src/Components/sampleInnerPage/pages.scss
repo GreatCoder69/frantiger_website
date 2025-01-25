@@ -1,0 +1,116 @@
+body {
+  color: white;
+}
+.pageWithSidebarContainer {
+  background: rgb(24, 23, 23) !important;
+}
+
+//   ! BACKGROUND IMAGE AND CONTENT
+.innerPage-BgDiv {
+  height: 55vh;
+  padding: 5% 25%;
+  font-family: Quicksand-Bold;
+
+  h1 {
+    font-weight: 600;
+    font-size: 4.5rem;
+    text-shadow: 2px 2px 1px var(--white), -1px -1px 1px var(--white),
+      -2px 2px 1px var(--white), 1px -1px 1px var(--white);
+
+    span {
+      text-shadow: 2px 2px 1px var(--carrotOrange),
+        -1px -1px 1px var(--carrotOrange), -2px 2px 1px var(--carrotOrange),
+        1px -1px 1px var(--carrotOrange);
+    }
+  }
+  p {
+    color: var(--white);
+    font-family: Quicksand-Semibold;
+  }
+}
+.innerPage-With-SideBarPages {
+  height: 55vh;
+  background-image: url("../../Assets/images/PageImages/rectangle.jpg");
+  background-repeat: no-repeat;
+  padding: 8% 28%;
+
+  h1 {
+    text-shadow: none;
+    font-weight: 600;
+    font-size: 3.1rem;
+  }
+  span {
+    text-shadow: none !important;
+  }
+  p {
+    padding: 0% 10%;
+    font-family: Quicksand-Semibold;
+  }
+}
+
+// * CONTENT
+//! WITH SIDEBAR
+.inner-Page-ContentConatainerWS {
+  height: 171vh;
+  padding: 5% 4%;
+  .content-OnLeft-DivWS {
+    h1 {
+      margin: 0;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+//! WITHOUT SIDEBAR
+.inner-Page-ContentConatainerWOS {
+  height: 130vh;
+  padding: 4% 5%;
+  color: var(--grey);
+  font-family: Quicksand-Regular;
+
+  .content-OnLeft-DivWOS {
+    padding: 3%;
+
+    h1 {
+      color: var(--white) !important;
+      font-family: Quicksand-Bold;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.3em;
+      word-spacing: 7px;
+      // font-family: Quicksand-Semibold;
+    }
+    span {
+      color: var(--carrotOrange);
+    }
+  }
+
+  ul {
+    li {
+      font-size: 1.3rem;
+    }
+  }
+}
+.content-OnLeft-DivWS {
+  padding: 3%;
+
+  h1 {
+    color: var(--white) !important;
+    font-family: Quicksand-Bold;
+    margin-left: 7%;
+  }
+  p {
+    font-size: 1.3em;
+    word-spacing: 7px;
+    // font-family: Quicksand-Semibold;
+  }
+  span {
+    color: var(--carrotOrange);
+  }
+  ul {
+    li {
+      font-size: 1.3rem;
+    }
+  }
+}

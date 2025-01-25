@@ -1,0 +1,88 @@
+//! POPUP WHEN CLICK THE DOWNLOAD BUTTON
+
+.downloadPopContainer{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.851) !important;
+  position: fixed;
+  z-index: 1000;
+}
+
+.popUpContainer {
+  top: 20%;
+  padding: 3rem 4rem 1rem 2rem;
+  z-index: 100;
+  left: 25%;
+  width: 55%;
+
+  .popUpInnerContainer {
+    h1 {
+      font-size: 3.4rem;
+      letter-spacing: 0px;
+      font-family: Quicksand-Bold;
+    }
+    h5{
+      margin: 0;
+      font-family: Quicksand-SemiBold;
+    }
+    span {
+      color: var(--carrotOrange);
+    }
+    label {
+      border: 3px solid;
+      padding: 0.4rem 10.9rem;
+      width: 40%;
+      border-radius: 40px;
+      background-color: white;
+      margin-bottom: 20%;
+      margin-top: 2%;
+    }
+    input {
+      font-size: 2rem;
+      width: 17rem; 
+
+      &::placeholder {
+        opacity: 0.5;
+        font-weight: 300;
+      }
+    }
+    button {
+      padding: 0;
+      background-color: transparent;
+    }
+
+    .downloadAppIcons{
+      button{
+        width: 4%;
+      }
+      img{
+          width: 100%;
+        }
+    }
+  }
+
+  .downloadAppTigerBGImage {
+    top: 3rem;
+    left: -17rem;
+    z-index: -2;
+
+    img {
+      width: 83%;
+    }
+  }
+}
+
+// !  CLOSE ICON
+.closeIconDiv {
+  background: black;
+  top: -17px;
+  right: 4rem;
+  border-radius: 50%;
+  border: 0;
+
+  img {
+    padding: 10px;
+    width: 2.5rem;
+  }
+}
+

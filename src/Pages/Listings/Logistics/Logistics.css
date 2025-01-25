@@ -1,0 +1,206 @@
+.LogisticsMain {
+    color: white;
+    font-family: "Quicksand-Light";
+    background: #000;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0;
+    height: 100vh;
+}
+
+.Limg {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 885px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(55deg, rgba(0, 0, 0, 0.9)50%, transparent 50%), linear-gradient(to bottom, #353637 50%, transparent 65%);
+    padding-bottom: 80px;
+
+}
+
+.Limg img {
+    max-width: 710px;
+    height: auto;
+    filter: invert(100%);
+    padding-right: 30px;
+    padding-bottom: 40px;
+
+}
+
+/* ///Technology listing heading/// */
+
+.LTitle {
+    position: absolute;
+    top: 62%;
+    /* Adjust as needed */
+    left: 22px;
+    /* Adjust as needed */
+    transform: translateY(-50%);
+    color: white;
+    font-family: "Quicksand-Bold";
+
+}
+
+.LTitleinner {
+    padding-left: 160px;
+
+
+}
+
+.LTitle h1 {
+    font-size: 75px;
+}
+
+.LTitle {
+    padding-left: 20px;
+}
+
+
+/* Styles for Filters */
+
+.Filters {
+
+    display: flex;
+    align-items: center;
+}
+
+.Filters h5 {
+    font-family: Quicksand-Light !important;
+    padding-left: 25px;
+
+}
+
+.Filters hr {
+    margin-right: 120px;
+    flex: 1;
+    border: none;
+    border-bottom: 2px solid white;
+    margin-left: 2px;
+    /* Adjust spacing after text */
+    position: relative;
+    z-index: 3;
+    font-family: Quicksand-Light !important;
+
+}
+
+
+
+.Filters1 {
+    display: flex;
+    align-items: center;
+}
+
+.Filters1 h5 {
+    padding-top: 10px;
+    padding-left: 25px;
+    font-family: Quicksand-Light !important;
+
+}
+
+
+.Filters1 hr {
+    margin-right: 115px;
+    flex: 1;
+    border: none;
+    border-bottom: 2px solid white;
+    margin-left: 2px;
+    /* Adjust spacing after text */
+    position: relative;
+    z-index: 3;
+    font-family: Quicksand-Light !important;
+
+}
+
+
+/* ??  Buttoms??? */
+.button-container {
+    padding-left: 20px;
+}
+
+.button {
+    font-size: large;
+    transition-duration: 0.5s;
+    background-color: black;
+    color: #e78c1c;
+    border: 2px solid #e78c1c !important;
+    padding: 16px 34px;
+    /* Adjust padding as needed */
+    margin-left: 20px;
+    /* Add space between buttons */
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #e78c1c;
+    color: black;
+    /* Keep the text color black on hover */
+    border-color: #e78c1c;
+    /* Change border color to match background on hover */
+}
+
+
+/* //    check box         // */
+/* Container for checkbox groups */
+.boxxContainer {
+    display: flex;
+    text-align: center !important;
+    align-items: center !important;
+    justify-content: center;
+}
+
+/* Individual checkbox group */
+.checkbox-container {
+    text-align: center;
+    /* Adjust width of each group */
+    margin-right: 20px;
+    /* Add space between groups */
+    margin-bottom: 20px;
+    /* Add space between rows */
+    display: flex;
+    flex-direction: row;
+    text-align: center !important;
+    align-items: center !important;
+
+}
+
+/* Optional styling */
+label {
+    margin-left: 5px;
+
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 10px;
+    margin-bottom: 5px;
+
+}
+
+.checkbox-container input[type="checkbox"]+label {
+    margin-right: 16px;
+
+}
+
+.checkbox-container input[type="checkbox"]+label::before {
+    content: '';
+    display: inline-block;
+    width: 25px !important;
+    height: 25px !important;
+    border: 1px solid #e78c1c;
+    margin-right: 8px;
+
+}
+
+.checkbox-container input[type="checkbox"]:checked+label::before {
+    background-color: #000;
+}
+
+.checkbox-container input[type="checkbox"]:hover+label::before {
+    background-color: #e78c1c;
+}
+
+.checkbox-container input[type="checkbox"]:checked+label::before {
+    background-color: #e78c1c;
+}
